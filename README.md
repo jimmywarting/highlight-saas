@@ -1,5 +1,4 @@
-# highlight-saas
-Highlight.js as a service
+# Highlight.js as a service
 
 Code highlight will take raw source code and convert into nicely formatted HTML with syntax and keyword highlighting.
 So your site don't ahve to include the hole bundle of all languages and code styles
