@@ -10,7 +10,7 @@
   "author": "",
   "engines": {
     "node": ">10.8.0",
-    "postinstall": "postinstall.js"
+    "postinstall": "node postinstall.js"
   },
   "license": "MIT",
   "dependencies": {

@@ -73,4 +73,4 @@ app.all('*', jsonParser, urlencodedParser, textParser, upload.single(), async (r
   res.send(content)
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
