@@ -29,6 +29,7 @@ fetch('https://highlight-saas.herokuapp.com/?style=atom-one-light', {
 })
 
 // using a iframe
+iframe.frameborder = 0
 iframe.src = 'https://highlight-saas.herokuapp.com/?' + new URLSearchParams({
   content: `p {color: red;}`
 })
